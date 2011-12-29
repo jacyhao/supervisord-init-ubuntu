@@ -34,7 +34,7 @@ PIDFILE=/var/run/$NAME.pid
 # If this value is set too low you might not
 # let some servers to die gracefully and
 # 'restart' will not work
-DODTIME=12
+DODTIME=6
 
 # Include supervisor defaults if available
 if [ -f /etc/default/supervisor ] ; then
